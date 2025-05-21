@@ -65,23 +65,25 @@ Visit http://127.0.0.1:5000/ in your browser.
 ## 🧠 Model Info
 Framework: TensorFlow / Keras
 
-Model: Custom CNN architecture
+Model Architecture: Pre-trained Xception model with custom classification head (Transfer Learning)
 
-Input Size: 224x224 pixels
+Input Size: 224 × 224 pixels
 
-Dataset: Kaggle Brain MRI Classification
+Dataset: Kaggle Brain Tumor MRI Classification
 
 📈 Accuracy
 Metric	Value
 Training Acc	~98%
 Validation Acc	~95%
 
-Note: Performance may vary depending on preprocessing and augmentation strategies.
+🔍 Note: Model performance may vary depending on image preprocessing, augmentation strategies, and dataset split ratios.
 
-📊 Future Improvements
-Add support for Grad-CAM to visualize model attention
+## 📊 Future Improvements
+🔬 Integrate Grad-CAM for tumor localization and model interpretability
 
-Convert the model to TensorFlow Lite for mobile deployment
+📱 Convert model to TensorFlow Lite for mobile or edge deployment
 
-Deploy on cloud platforms (e.g., Heroku, Render, AWS)
+☁️ Deploy the application on cloud platforms like Heroku, Render, or AWS for public access
+
+
 
